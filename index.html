@@ -19,6 +19,9 @@
                 extend: {
                     colors: {
                         clifford: '#da373d',
+                    },
+                    fontFamily: {
+                        manrope: ['Manrope', 'sans-serif'],
                     }
                 }
             }
@@ -26,7 +29,7 @@
     </script>
 </head>
 
-<body>
+<body class="font-manrope">
     <!-- Main content -->
     <main class="max-w-screen-lg mx-auto p-16 lg:p-28">
         <!-- Header section -->
@@ -146,6 +149,40 @@
 
         </section>
 
+        <!-- News & Events -->
+        <section>
+            <div class="text-center mb-8">
+                <h3 class="font-extrabold text-5xl mb-4">News & Events</h3>
+                <p class="text-gray-500">There are many variations of passages of Lorem Ipsum available, but the
+                    majority have suffered alteration in some form, by injected humour, or randomised words which don't
+                    look even slightly believable. </p>
+            </div>
+            <!-- News Cards -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
+                <div class="p-5 border rounded-lg">
+                    <img class="mb-2" src="images/news-1.png" alt="">
+                    <p class="text-gray-500 mb-2">Feb 05, 2027</p>
+                    <h4 class="font-extrabold text-xl mb-2">Collecting 8 points for discount</h4>
+                    <p class="text-gray-500 mb-2">There are many variations of passages of Lorem Ipsum available.</p>
+                    <p class="font-bold mb-2">Learn More</p>
+                </div>
+                <div class="p-5 border rounded-lg">
+                    <img class="mb-2" src="images/news-2.png" alt="">
+                    <p class="text-gray-500 mb-2">Feb 05, 2027</p>
+                    <h4 class="font-extrabold text-xl mb-2">Collecting 8 points for discount</h4>
+                    <p class="text-gray-500 mb-2">There are many variations of passages of Lorem Ipsum available.</p>
+                    <p class="font-bold mb-2">Learn More</p>
+                </div>
+                <div class="p-5 border rounded-lg">
+                    <img class="mb-2" src="images/news-3.png" alt="">
+                    <p class="text-gray-500 mb-2">Feb 05, 2027</p>
+                    <h4 class="font-extrabold text-xl mb-2">Collecting 8 points for discount</h4>
+                    <p class="text-gray-500 mb-2">There are many variations of passages of Lorem Ipsum available.</p>
+                    <p class="font-bold mb-2">Learn More</p>
+                </div>
+            </div>
+        </section>
+
         <!-- Reviews Section -->
         <section class="mb-24">
             <div
@@ -168,7 +205,7 @@
                             <div class="absolute -top-5 -left-5 bg-white rounded-full">
                                 <img class="p-1" src="images/client.png" alt="">
                             </div>
-                            <div>
+                            <div class="pt-5 pl-5">
                                 <p class="text-gray-500">We are providing the best and suitable home insurance services
                                     for
                                     the people who are interested to treatment</p>
